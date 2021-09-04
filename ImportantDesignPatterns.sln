@@ -9,11 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattern", "FactoryPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{F836D17F-0895-4068-ABB0-B869A05C4E8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{00907028-829B-4D30-9CCE-E182683F89A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{00907028-829B-4D30-9CCE-E182683F89A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{38140AC1-C071-456C-A113-D02D4D980A06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{38140AC1-C071-456C-A113-D02D4D980A06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{96D3A837-9D2A-4ADD-B2BC-14A34DF46978}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{96D3A837-9D2A-4ADD-B2BC-14A34DF46978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{F7E4971B-51A6-4DE5-A28D-BA1F2CE46897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorRecap", "DecoratorRecap\DecoratorRecap.csproj", "{B13ABBC9-539A-40A2-9C5C-708CBB7FCCF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{96D3A837-9D2A-4ADD-B2BC-14A34DF46978}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96D3A837-9D2A-4ADD-B2BC-14A34DF46978}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96D3A837-9D2A-4ADD-B2BC-14A34DF46978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E4971B-51A6-4DE5-A28D-BA1F2CE46897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E4971B-51A6-4DE5-A28D-BA1F2CE46897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E4971B-51A6-4DE5-A28D-BA1F2CE46897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E4971B-51A6-4DE5-A28D-BA1F2CE46897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B13ABBC9-539A-40A2-9C5C-708CBB7FCCF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B13ABBC9-539A-40A2-9C5C-708CBB7FCCF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B13ABBC9-539A-40A2-9C5C-708CBB7FCCF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B13ABBC9-539A-40A2-9C5C-708CBB7FCCF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
